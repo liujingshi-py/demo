@@ -7,4 +7,6 @@ demo
 ./nginx -s stop 关闭Nginx
 ./nginx -s reload 重启Nginx
 firewall-cmd --add-port=8080/tcp --permanent 设置对外开放端口
--lqns?f%d31V
+
+yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+yum makecache fast  #更新yum软件包索引
