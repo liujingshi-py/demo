@@ -10,3 +10,4 @@ firewall-cmd --add-port=8080/tcp --permanent 设置对外开放端口
 
 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 yum makecache fast  #更新yum软件包索引
+ docker inspect 容器ID 查看容器元数据
